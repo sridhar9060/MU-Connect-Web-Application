@@ -1,0 +1,117 @@
+.container1 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #EFE2BA;
+    color: #4056A1;
+}
+
+.main1 {
+    background-color: #EFE2BA;
+    display: flex;
+    margin-top: 120px;
+    width: auto;
+    height: 550px;   
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 30px;
+    border: 1px solid #4056A1;
+    border-radius: 10px;
+    padding: 30px;
+   
+    
+}
+
+#desin{
+    height: 200px;
+}
+
+#PN{
+    margin-left: auto;
+}
+#Rs,
+#loc,
+#quant{
+    margin-left: auto;  
+}
+
+#desin{
+    margin-left: 5px;
+}
+
+.newsImage{
+    margin-top: 20px;
+}
+
+.productName1,
+.quantity1,
+.price1,
+.description1,
+.imageUpload,
+.location1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0%;
+    
+}
+
+.browse{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.submit{
+margin-left: 50%;
+}
+
+
+.mystocks{
+    margin-left: 30px;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #4056A1;
+    color: #4056A1;
+    align-items: center ;
+    border-radius: 10px;
+   
+}
+.mainName{
+    display: flex;
+}
+
+#deleteicon{
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.logoutbutton{
+    margin-top: 15px;
+    margin-right: 30px;
+    width: 100px;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #4056A1;
+    color: #4056A1;
+    align-items: center ;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .main1 {
+    width: 90%;
+    padding: 5px;
+  }
+  
+}
+
+
+
+
+
+

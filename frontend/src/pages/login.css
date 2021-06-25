@@ -1,0 +1,67 @@
+.container3 {
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;  
+    font-family: sans-serif;  
+}
+
+.loginbody{
+    height: 370px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black; 
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+.logintitle{
+    color: black;
+
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+}
+
+.loginbutton{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    padding: 10px 0px 10px 0px;
+}
+
+#password{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+
+.forgotpass{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+#forgottitle{
+    color: black;
+    text-decoration: none;
+}
+
+.logintitle{
+    padding: 20px;
+}
